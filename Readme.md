@@ -17,7 +17,7 @@ This one contains changes that I made for my 1366*786 screen.
 
 
 ### Usage
-- Open up your configuration file `/etc/sddm.conf` and set `sddm-lain-wired-theme` as your current theme
+- Open up your configuration file `/etc/sddm.conf` and set `sddm-lain-wired-theme-blue` as your current theme
 
 ```shell
 [Theme]
