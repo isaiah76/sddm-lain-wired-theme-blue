@@ -60,7 +60,7 @@ Rectangle {
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#d2738a"
+					border.color: "#0820ff"
 				}
 			}
 			KeyNavigation.backtab: shutdownBtn; KeyNavigation.tab: password
@@ -86,7 +86,7 @@ Rectangle {
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#d2738a"
+					border.color: "#0820ff"
 				}
 			}
 			KeyNavigation.backtab: username; KeyNavigation.tab: session
@@ -104,7 +104,7 @@ Rectangle {
 			width: 200
 			Rectangle {
 				anchors.fill: parent
-				color: "#d2738a"
+				color: "#0820ff"
 			}
 			Qqc.Label {
 				Layout.alignment: Qt.AlignCenter
@@ -174,9 +174,9 @@ Rectangle {
 		model: sessionModel
 		index: sessionModel.lastIndex
 		color: "#000"
-		borderColor: "#d2738a"
-		focusColor: "#d2738a"
-		hoverColor: "#d2738a"
+		borderColor: "#0820ff"
+		focusColor: "#0820ff"
+		hoverColor: "#0820ff"
 		textColor: "#c1b492"
 		arrowIcon: "angle-down.png"
 		KeyNavigation.backtab: password; KeyNavigation.tab: rebootBtn;
