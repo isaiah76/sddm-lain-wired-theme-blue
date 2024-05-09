@@ -1,12 +1,13 @@
+![navi](https://github.com/ioresolution/sddm-lain-wired-theme-blue/blob/master/WiredLogIn.gif)
+
 # Sddm-lain-wired-theme-blue
 
 A sddm login screen inspired by 1998 anime ["Serial Experiments Lain"](https://myanimelist.net/anime/339/Serial_Experiments_Lain)
 
 **Note-
-This is a fork.
-Original version can be found [here](https://gitlab.com/mixedCase/sddm-lain-wired-theme)**
+This is a [fork](https://github.com/lll2yu/sddm-lain-wired-theme)**
 
-This one contains changes that I made for my 1366*786 screen.
+Only difference between this and [lll2yu's one](https://github.com/lll2yu/sddm) is that this one is more **BLUE**
 
 
 # Installation :-
@@ -24,4 +25,4 @@ This one contains changes that I made for my 1366*786 screen.
 # Current theme name
 Current=sddm-lain-wired-theme-blue
 ```
-- Now you are all set. Enjoy the aesthetic.
+- Now you are all set. Enjoy the aesthetic
