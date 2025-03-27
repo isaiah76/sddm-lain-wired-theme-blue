@@ -39,12 +39,6 @@ Rectangle {
 			height: 192
 			source: "WiredLogIn.gif"
 		}
-		AnimatedImage{
-			Layout.alignment: Qt.AlignCenter
-			Layout.bottomMargin: 20
-			height: 50
-			source: "whoIsUser.gif"
-		}
 		Qqc.Label {
 			Layout.alignment: Qt.AlignCenter
 			text: "Ｕｓｅｒ ＩD:"
@@ -205,4 +199,3 @@ Rectangle {
 		}
 	}
 }
-
