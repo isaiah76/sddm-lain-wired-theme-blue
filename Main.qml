@@ -29,12 +29,17 @@ Rectangle {
 		source: "bgN5.gif"
 	}
 
-	ColumnLayout {
-		width: parent.width
-		height: parent.height
+  ColumnLayout {
+    anchors{
+      top: parent.top
+      horizontalCenter: parent.horizontalCenter
+      topMargin: 200
+    }
+    width: parent.width
+    spacing: 15
 		AnimatedImage{
 			Layout.alignment: Qt.AlignCenter
-			Layout.topMargin: 2
+			Layout.topMargin: 1
 			width: 192
 			height: 192
 			source: "WiredLogIn.gif"
@@ -54,7 +59,7 @@ Rectangle {
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#0820ff"
+					border.color: "#4a54c6"
 				}
 			}
 			KeyNavigation.backtab: shutdownBtn; KeyNavigation.tab: password
@@ -80,7 +85,7 @@ Rectangle {
 				background: Rectangle {
 					color: "#000"
 					implicitWidth: 200
-					border.color: "#0820ff"
+					border.color: "#4a54c6"
 				}
 			}
 			KeyNavigation.backtab: username; KeyNavigation.tab: session
@@ -94,11 +99,11 @@ Rectangle {
 		ColumnLayout {
 			Layout.alignment: Qt.AlignCenter
 			Layout.topMargin: 4
-			Layout.bottomMargin: 50
+			Layout.bottomMargin: 20
 			width: 200
 			Rectangle {
 				anchors.fill: parent
-				color: "#0820ff"
+				color: "#4a54c6"
 			}
 			Qqc.Label {
 				Layout.alignment: Qt.AlignCenter
@@ -168,9 +173,9 @@ Rectangle {
 		model: sessionModel
 		index: sessionModel.lastIndex
 		color: "#000"
-		borderColor: "#0820ff"
-		focusColor: "#0820ff"
-		hoverColor: "#0820ff"
+		borderColor: "#4a54c6"
+		focusColor: "#4a54c6"
+		hoverColor: "#4a54c6"
 		textColor: "#c1b492"
 		arrowIcon: "angle-down.png"
 		KeyNavigation.backtab: password; KeyNavigation.tab: rebootBtn;
